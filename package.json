@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-template-parcel-simple",
+  "version": "1.0.0",
+  "description": "VueJS template using ParcelJS bundler.",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "vuejs",
+    "parceljs"
+  ],
+  "author": "Vinicius Kiatkoski Neves <kneves.vinicius@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.8.1",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.2.1",
+    "node-sass": "^4.9.0",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
